@@ -1,0 +1,25 @@
+<!-- create  a html file which contain two no type input field one drop down which contain option like add,sub mul,div.
+the input field must contain value greater than zero else it will give message pls enter valid number .Also user must select from the 
+drop down else give a message you have not selected any option.message will be display on /calc page.if option is 
+selected from drop down and numbers are entered then respective calculation will be perform on page.Use get method to request data. -->
+
+<html>
+     <body>
+        <form action="/calc" method="get">
+            <label>num1:</label>
+            <input type="number" name="fno"><br><br>
+            <label>num2:</label>
+            <input type="number" name="sno"><br><br
+           <ul>Operations:
+            <select name="select_name">
+<option>select</option>
+            <option value="add"> <li>Add</li></option>
+            <option value="sub"><li>Subtract</li></option>
+            <option value="mul"><li>Mul</li></option>
+            <option value="div"><li>Div</li></option>
+            
+        </select></ul><br><br>
+            <input type="submit" value="calculate">
+        </form>
+    
+</body></html>

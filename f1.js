@@ -1,0 +1,5 @@
+var expr=require("express")
+var app=expr()
+// app.use(expr.static(__dirname))
+app.use(expr.static(__dirname,{index:'2.html'}))
+app.listen(2121)
