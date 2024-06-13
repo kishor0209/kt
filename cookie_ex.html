@@ -1,0 +1,28 @@
+<!-- to develop a user feedback for a website using exprees js.
+Create a form with following field:name,email,message
+when user submit the form store their feedback information 
+in a cookie name "feedback" which expires in 10 seconds display confirmation message to the user after successfully submitting the form and create a link to display the feedback detail stored in feedback cookie
+when user click to the link retrive the feedback information from the cookie and display it on page which also include a link on the feedback details page to log out 
+
+ -->
+ <html>
+    <body>
+        <form action="/Submit-feedback" method="post">
+           <label>Name:</label>
+           <input type="text" name="name" placeholder="name"><br><br>
+           <label>Email:</label>
+           <input type="email" name="email" placeholder="Email"><br><br>
+           <label>Message:</label>
+           <textarea rows="10" cols="30" name="message"></textarea></br><br>
+           <label>Rating</label>
+           <input type="radio" name="ratings">Bad
+           <input type="radio" name="ratings">Average
+           <input type="radio" name="ratings">Good
+           <input type="radio" name="ratings">Overgood
+           <input type="radio" name="ratings">Excellent
+        </br>
+
+           <input type="submit">
+       </form>
+   
+</body></html>
